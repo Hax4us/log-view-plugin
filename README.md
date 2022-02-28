@@ -8,7 +8,7 @@ Gradle plugin for my android app LogView
     ```
     apply plugin: com.hax4us.android.AndroidLogPlugin
     ```
-5. Now just run task `sh gradlew injectLogger`, now build your app as usual like `sh gradlew assembleDebug` then install it and open **LogView** and you will see your logs there.
+5. Now just run task `sh gradlew injectLogger`, now build your app as usual like `sh gradlew assembleDebug` then install it and open **Log.d** and you will see your logs there.
 
 ## NOTE 
 Never forget to run task `cleanLogger` like `sh gradlew cleanLogger` before app's release build.
